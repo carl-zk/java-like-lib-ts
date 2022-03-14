@@ -1,0 +1,24 @@
+{
+  "name": "java-like-lib-ts",
+  "version": "0.0.1-beta1",
+  "description": "collection utils like java by ts",
+  "main": "index.ts",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/carl-zk/java-like-lib-ts.git"
+  },
+  "keywords": [
+    "java",
+    "ts",
+    "collections"
+  ],
+  "author": "carl <zxfspace@163.com> (https://github.com/carl-zk)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/carl-zk/java-like-lib-ts/issues"
+  },
+  "homepage": "https://github.com/carl-zk/java-like-lib-ts#readme"
+}
