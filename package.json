@@ -4,7 +4,8 @@
   "description": "collection utils like java by ts",
   "main": "index.ts",
   "scripts": {
-    "test": "test"
+    "test": "mocha -r ts-node/register test/src/**/*.test.ts",
+    "coverage": "nyc -r text -e .ts -x \"test/*.test.ts\" npm run test"
   },
   "repository": {
     "type": "git",
@@ -20,5 +21,15 @@
   "bugs": {
     "url": "https://github.com/carl-zk/java-like-lib-ts/issues"
   },
-  "homepage": "https://github.com/carl-zk/java-like-lib-ts#readme"
+  "homepage": "https://github.com/carl-zk/java-like-lib-ts#readme",
+  "devDependencies": {
+    "@testdeck/mocha": "^0.2.0",
+    "@types/mocha": "^9.1.0",
+    "@types/node": "^17.0.21",
+    "mocha": "^9.2.2",
+    "nyc": "^15.1.0",
+    "ts-mockito": "^2.6.1",
+    "ts-node": "^10.7.0",
+    "typescript": "^4.6.2"
+  }
 }
