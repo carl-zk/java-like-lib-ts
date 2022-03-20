@@ -1,7 +1,12 @@
 {
   "compilerOptions": {
+    "baseUrl": "./src",
     "experimentalDecorators": true,
-    "allowJs": true
+    "allowJs": true,
+    "strictPropertyInitialization": false,
+    "strict": false,
+    "module": "commonjs",
+    "target": "es6"
   },
   "exclude": ["../node_modules", "./test"],
   "include": ["src/**/*.ts"]

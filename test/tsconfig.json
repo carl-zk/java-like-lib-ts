@@ -2,8 +2,8 @@
   "extends": "../tsconfig.json",
   "compilerOptions": {
     "baseUrl": "./src",
-    "module": "commonjs",
-    "target": "ES6",
+    "module": "commonJS",
+    "target": "es6",
     "experimentalDecorators": true,
     "allowJs": true,
     "sourceMap": true, // debug
