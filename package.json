@@ -1,8 +1,9 @@
 {
   "name": "java-like-lib-ts",
-  "version": "0.0.1-beta2",
+  "version": "0.0.1-beta4",
   "description": "collection utils like java by ts",
   "main": "index.ts",
+  "types": "./src/java/index.d.ts",
   "scripts": {
     "test": "mocha -r ts-node/register test/src/**/*.test.ts",
     "coverage": "nyc -r text -e .ts -x \"test/*.test.ts\" npm run test"
