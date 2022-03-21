@@ -1,10 +1,11 @@
 {
   "name": "java-like-lib-ts",
-  "version": "0.0.1-beta4",
+  "version": "0.0.1-beta12",
   "description": "collection utils like java by ts",
-  "main": "index.ts",
-  "types": "./src/java/index.d.ts",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
   "scripts": {
+    "build": "npx tsc",
     "test": "mocha -r ts-node/register test/src/**/*.test.ts",
     "coverage": "nyc -r text -e .ts -x \"test/*.test.ts\" npm run test"
   },
@@ -23,6 +24,10 @@
     "url": "https://github.com/carl-zk/java-like-lib-ts/issues"
   },
   "homepage": "https://github.com/carl-zk/java-like-lib-ts#readme",
+  "files": [
+    "lib"
+  ],
+  "typings": "lib/index.d.ts",
   "devDependencies": {
     "@testdeck/mocha": "^0.2.0",
     "@types/mocha": "^9.1.0",
@@ -32,5 +37,8 @@
     "ts-mockito": "^2.6.1",
     "ts-node": "^10.7.0",
     "typescript": "^4.6.2"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }

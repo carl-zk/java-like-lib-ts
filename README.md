@@ -6,6 +6,8 @@ utils like in java, by typescript
 
 `npm i java-like-lib-ts`  
 
+`import { PriorityQueue } from 'java-like-lib-ts/lib'`
+
 - LinkedList
 - PriorityQueue
 
@@ -15,7 +17,7 @@ utils like in java, by typescript
 
 ## Deploy
 
-[https://www.npmjs.com/](https://www.npmjs.com/)
+[https://www.npmjs.com/](https://www.npmjs.com/)  
 `npm login`  
 carl-zk  
 `npm publish`  

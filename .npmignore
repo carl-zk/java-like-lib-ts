@@ -1,2 +1,8 @@
+# src
+src
+
+.jshintrc
+tsconfig.json
+
 # test
 test

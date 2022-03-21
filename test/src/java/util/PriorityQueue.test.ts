@@ -1,7 +1,9 @@
 import { suite, test } from "@testdeck/mocha";
 import { mock, instance } from "ts-mockito";
 import * as assert from "assert";
-import PriorityQueue from "../../../../src/java/util/PriorityQueue";
+// import PriorityQueue from "../../../../src/java/util/PriorityQueue";
+
+import { PriorityQueue } from '../../../../src/index'
 
 @suite
 class PriorityQueueTest {
